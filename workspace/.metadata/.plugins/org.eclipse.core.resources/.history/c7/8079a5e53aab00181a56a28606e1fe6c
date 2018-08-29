@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="QLBanSuaEJB">
+    	<jta-data-source>jdbc/qlbansuaPool</jta-data-source>
+    	<jar-file>jpa.jar</jar-file>
+    	<class>entities.CtHoadon</class>
+    	<class>entities.CtHoadonPK</class>
+    	<class>entities.HangSua</class>
+    	<class>entities.HoaDon</class>
+    	<class>entities.KhachHang</class>
+    	<class>entities.LoaiSua</class>
+    	<class>entities.Sua</class>
+        <!-- <properties>
+            <property name=""/>
+            <property name=""/>
+            <property name=""/>
+        </properties> -->
+    </persistence-unit>
+</persistence>

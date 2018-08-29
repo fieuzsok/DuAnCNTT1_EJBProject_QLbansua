@@ -1,0 +1,28 @@
+/* AUTOMATICALLY GENERATED ON Fri Aug 24 15:37:54 ICT 2018*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "SuaSB", "getSuaByMaHang,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "SuaSB", "findByHangAndLoai,Local,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "LoaiSuaSB", "getLoaiByID,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "SuaSB", "findByMaHang,Local,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "HangSuaSB", "getAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "SuaSB", "getByMa,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "SuaSB", "getLimitByLoai,Local,java.lang.String,int,int";
+  permission javax.security.jacc.EJBMethodPermission "SuaSB", "getSuaByMaLoai,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "SuaSB", "findByWord,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "HangSuaSB", "getHangByID,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "LoaiSuaSB", "docTatCa3,Local,";
+  permission javax.security.jacc.EJBMethodPermission "SuaSB", "getLimitByHang,Local,java.lang.String,int,int";
+  permission javax.security.jacc.EJBMethodPermission "SuaSB", "findByLoaiSua,Local,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "SuaSB", "getDSBanChay,Local,";
+  permission javax.security.jacc.EJBMethodPermission "SuaSB", "insertSua,Local,entityBeans.Sua";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "LoaiSuaSB", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "SuaSB", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "HangSuaSB", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "RemoteSessionBean", "**";
+};
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.persistence.NamedNativeQueries"/>
+<fullyQualifiedTypeName name="javax.persistence.NamedNativeQuery"/>
+<fullyQualifiedTypeName name="sessionBeans.HangSuaSBLocal"/>
+<fullyQualifiedTypeName name="sessionBeans.LoaiSuaSBLocal"/>
+<fullyQualifiedTypeName name="entityBeans.LoaiSua"/>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.management.Query"/>
+<fullyQualifiedTypeName name="controllers.DanhSachSuaServlet"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="sessionBeans.DanhSachSuaSBLocal"/>
+<fullyQualifiedTypeName name="javax.ejb.EJB"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="entityBeans.HangSua"/>
+<fullyQualifiedTypeName name="entityBeans.Sua"/>
+<fullyQualifiedTypeName name="javax.persistence.Query"/>
+</qualifiedTypeNameHistroy>
