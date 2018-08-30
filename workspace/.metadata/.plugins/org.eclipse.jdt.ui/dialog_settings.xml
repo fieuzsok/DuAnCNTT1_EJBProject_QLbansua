@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="D:\Trung tam Tin hoc\Project\Quan ly ban sua Enterprise java beans\workspace" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="D:\Trung tam Tin hoc\Project\Quan ly ban sua Enterprise java beans\DuAnCNTT1_EJBProject_QLbansua\workspace\QLBanSuaEJB\lib" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="false" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>

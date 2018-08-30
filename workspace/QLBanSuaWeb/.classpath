@@ -9,9 +9,6 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/QLBanSuaEJB"/>
-	<classpathentry kind="lib" path="D:/Trung tam Tin hoc/Bai hoc/Bai giang Demo/Java_TTTH/Servlet/javax.servlet-3.0.jar"/>
-	<classpathentry kind="lib" path="D:/Trung tam Tin hoc/Project/Quan ly ban sua Enterprise java beans/workspace/jstl-connector.jar"/>
-	<classpathentry kind="lib" path="D:/Trung tam Tin hoc/Project/Quan ly ban sua Enterprise java beans/workspace/jstl-1.2.jar"/>
-	<classpathentry kind="lib" path="D:/Trung tam Tin hoc/Project/Quan ly ban sua Enterprise java beans/workspace/javax.ejb.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
